@@ -1,0 +1,108 @@
+{
+    "version": 1,
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "PlayerMap",
+            "id": "40c0f02d-049a-46b7-86dd-dca37e8a9fe1",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "5f6ba1d9-c82f-4ab8-bc3e-c3a9321d3b1b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Tap",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Drag",
+                    "type": "Button",
+                    "id": "a6dedaf9-7a07-4c5c-9870-db0483840cc9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Hold(duration=0.1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ClickPosition",
+                    "type": "Value",
+                    "id": "cdb422db-5f7b-4f73-a17f-5660ff9f062b",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3129c580-7924-4edd-9fd4-4465a6532ff7",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "477da68e-693d-47db-ad62-6171758f3418",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3ec03b5f-8e7e-43d7-82ae-7fb838b79e60",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drag",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b6040ae3-5f3c-4c4a-8dde-8d209533d289",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drag",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "577039b0-2bb7-43b9-aa4d-1c32c966976b",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ClickPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d7570c0a-6737-45ab-a7b4-9e27fae36420",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ClickPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
